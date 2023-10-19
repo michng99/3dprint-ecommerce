@@ -5,14 +5,14 @@ const nextConfig = {
     images: {
         domains: ['res.cloudinary.com']
     },
-    async rewrites() {
-        return [
-            {
-                source: '/api/:storeId/billboards/:billboardId',
-                destination: '/api/billboards/:billboardId?store=:storeId',
-            },
-        ]
-    },
+    // async rewrites() {
+    //     return [
+    //         {
+    //             source: '/api/:storeId/billboards/:billboardId',
+    //             destination: '/api/billboards/:billboardId?store=:storeId',
+    //         },
+    //     ]
+    // },
 }
 
 module.exports = nextConfig
