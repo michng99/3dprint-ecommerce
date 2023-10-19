@@ -6,7 +6,7 @@ import { ColumnDef } from "@tanstack/react-table"
 // You can use a Zod schema here if you want.
 export type BillboardColumn = {
     id: string
-    label: number
+    label: string
     createAt: string;
 }
 
