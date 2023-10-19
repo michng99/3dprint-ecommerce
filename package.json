@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
-    "build": "next.config.js build --output public"
+    "build": "./generated/client build --output public"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.25.4",
