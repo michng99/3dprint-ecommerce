@@ -130,7 +130,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
             </Form>
             <Separator/>
             <ApiAlert
-                title="Nextjs API Route"
+                title="NEXT_PUBLIC_API_URL"
                 description={`${origin}/api/${params.storeId}`}
                 variant="public"
             />
