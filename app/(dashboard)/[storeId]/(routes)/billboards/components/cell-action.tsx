@@ -7,7 +7,6 @@ import {
     DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
 import {Button} from "@/components/ui/button";
-import {Span} from "next/dist/server/lib/trace/tracer";
 import {Copy, Edit, MoreHorizontal, Trash} from "lucide-react";
 import toast from "react-hot-toast";
 import {useParams, useRouter} from "next/navigation";
