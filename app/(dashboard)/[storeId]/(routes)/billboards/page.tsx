@@ -24,7 +24,7 @@ const BillboardsPage = async ({
 
         id: item.id,
         label: item.label,
-        createAt: format(item.createdAt, 'dd MMMM yyyy - HH:mm:ss'),
+        createdAt: format(item.createdAt, 'dd MMMM yyyy - HH:mm:ss'),
     }))
 
     return (
